@@ -21,12 +21,12 @@ namespace WindowsFormsApp1
             // Performs analysis on each 
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                Exp1(dt.Rows[i].Field<string>(3));
-                Exp2(dt.Rows[i].Field<string>(4));
-                Exp3(dt.Rows[i].Field<string>(5));
+                Stroop(dt.Rows[i].Field<string>(3));
+                Fitts(dt.Rows[i].Field<string>(4));
+                Nback(dt.Rows[i].Field<string>(5));
             }
         }
-        private string[] Exp1(string file)
+        private string[] Stroop(string file)
         {
             StreamReader sr = OpenFile(file);
 
@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
 
             return results;
         }
-        private string[] Exp2(string file)
+        private string[] Fitts(string file)
         {
             StreamReader sr = OpenFile(file);
 
@@ -48,7 +48,7 @@ namespace WindowsFormsApp1
 
             return results;
         }
-        private string[] Exp3(string file)
+        private string[] Nback(string file)
         {
             StreamReader sr = OpenFile(file);
 
@@ -76,3 +76,40 @@ namespace WindowsFormsApp1
         }
     }
 }
+
+// txt analyse instructions
+
+/* Stroop
+ * Colum	Meaning
+ * 1        name of block
+ * 2        name of the word (e.g., "yellow")
+ * 3        the color the word is printed in (e.g., "red")
+ * 4        Stroop color match (1=compatible, 0=incompatible)
+ * 5        tablerow number
+ * 6        the pressed key number
+ * 7        Status (1=correct, 2=wrong, 3=timeout)
+ * 8        Response time (milliseconds)
+*/
+
+/* Fitts
+ * Colum    Meaning
+ * 1        x-position of stimulus
+ * 2        y-position of stimulus
+ * 3        size of stimulus
+ * 4        distance of stimulus from start position
+ * 5        the Fitts' calculation (predicted RT based on distance and size)
+ * 6        the response time(ms)
+ * 7        status(1=correct, 2=error, 3=too slow)
+*/
+
+/* Nback
+ * Colum	Meaning
+ * 1        correct (1=correct, 2=wrong, 3=too slow)
+ * 2        which key was pressed
+ * 3        reaction time (ms)
+ * 4        random number used for conditions (1=same as 3-back, 2-5 other letter)
+ * 5        trial number
+ * 6        the current letter
+ * 7        the letter of the previous trial
+ * 8        the letter of the trial before
+*/
