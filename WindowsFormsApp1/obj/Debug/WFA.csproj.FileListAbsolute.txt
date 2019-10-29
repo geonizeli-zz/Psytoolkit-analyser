@@ -1,0 +1,10 @@
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WFA.csprojAssemblyReference.cache
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Loader.resources
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WFA.csproj.GenerateResource.cache
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WFA.csproj.CoreCompileInputs.cache
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
