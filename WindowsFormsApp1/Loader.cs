@@ -29,6 +29,8 @@ namespace WindowsFormsApp1
             Analyser analyser = new Analyser();
 
             analyser.ReadDt(dt, txtArquivoExcel.Text);
+            DataView view = new DataView(analyser.ReadDt(dt, txtArquivoExcel.Text));
+            dgvDados.DataSource = view;
         }
 
         private void CarregaDadosExcel()
@@ -114,6 +116,11 @@ namespace WindowsFormsApp1
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
         }

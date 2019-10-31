@@ -8,3 +8,5 @@ C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\ob
 C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\Interop.Office.dll
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WFA.csproj.ResolveComReference.cache

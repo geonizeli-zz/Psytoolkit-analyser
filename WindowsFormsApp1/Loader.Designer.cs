@@ -35,6 +35,7 @@
             this.dgvDados = new System.Windows.Forms.DataGridView();
             this.lblRegistros = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.sfd1 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,7 +106,11 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Colunas:";
             // 
-            // Form1
+            // sfd1
+            // 
+            this.sfd1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
+            // Loader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,7 +121,7 @@
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.txtArquivoExcel);
             this.Controls.Add(this.btnSelect);
-            this.Name = "Form1";
+            this.Name = "Loader";
             this.Text = "Leitor de excel";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -135,6 +140,7 @@
         private System.Windows.Forms.DataGridView dgvDados;
         private System.Windows.Forms.Label lblRegistros;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.SaveFileDialog sfd1;
     }
 }
 
