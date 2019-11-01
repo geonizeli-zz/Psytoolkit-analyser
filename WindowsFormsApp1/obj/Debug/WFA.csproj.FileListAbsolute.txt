@@ -10,3 +10,6 @@ C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bi
 C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\Interop.Office.dll
 C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WFA.csproj.ResolveComReference.cache
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Administrador.M0730\Desktop\psy\Psytoolkit-analyser\WindowsFormsApp1\obj\Debug\WFA.csproj.CopyComplete

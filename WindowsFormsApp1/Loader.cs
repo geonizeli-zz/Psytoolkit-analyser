@@ -28,9 +28,14 @@ namespace WindowsFormsApp1
 
             Analyser analyser = new Analyser();
 
-            analyser.ReadDt(dt, txtArquivoExcel.Text);
-            DataView view = new DataView(analyser.ReadDt(dt, txtArquivoExcel.Text));
-            dgvDados.DataSource = view;
+            DataTable novo = analyser.ReadDt(dt, txtArquivoExcel.Text);
+
+            DataView dv = new DataView(novo);
+
+            dgvDados.DataSource = novo;
+
+            sfd1.ShowDialog();
+            Export.DtExport(novo, sfd1.FileName);
         }
 
         private void CarregaDadosExcel()

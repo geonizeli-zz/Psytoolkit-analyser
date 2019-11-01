@@ -108,6 +108,8 @@
             // 
             // sfd1
             // 
+            this.sfd1.DefaultExt = "xlsx";
+            this.sfd1.FileName = "output";
             this.sfd1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
             // Loader
